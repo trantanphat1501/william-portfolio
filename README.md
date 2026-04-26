@@ -1,98 +1,41 @@
-# William Portfolio
+# William — Personal Portfolio
 
-Personal portfolio of William ([@williamm168](https://x.com/williamm168)), a Web3 content creator and community builder based in Vietnam.
-
-**Live site:** [william-portfolio.vercel.app](https://william-portfolio.vercel.app)
+**Live:** [william168-portfolio.vercel.app](https://william168-portfolio.vercel.app)
 
 ---
 
 ## About
 
-4+ years building the Sui ecosystem in Vietnam through grassroots meetups, hackathons, and foundation-scale content. This site showcases my work across experience, achievements, content, and side projects.
+I'm William ([@williamm168](https://x.com/williamm168)), a Web3 content creator and community builder based in Vietnam. Over the past 4+ years, I've been embedded in the Sui ecosystem — hosting grassroots meetups, writing technical content, winning hackathons, and helping builders connect with the ecosystem at every level.
+
+This portfolio is a single place that captures everything: who I am, what I've built, and where I'm going next.
 
 ---
 
-## Tech Stack
+## What's Inside
+
+| Section | What it shows |
+|---|---|
+| **Hero** | Full-screen video background with animated role cycling and social links |
+| **Experience** | A timeline of roles — from community lead to content creator to Walrus builder |
+| **Achievements** | Competitions won, events hosted, community stats (4.1K+ followers, $10K prize, 100+ events) |
+| **Content** | YouTube series across Walrus, Sui, SuiNS, and DeepBook |
+| **Building** | Side projects including SuiNS Profile Builder, NFT tools, and community dashboards |
+| **Connect** | Direct links to reach me across every platform |
+
+---
+
+## Built With
 
 - **React 18** + **Vite** + **TypeScript**
-- **Tailwind CSS v4** (via `@tailwindcss/vite`, no config file)
-- **Framer Motion** for page animations and transitions
-- **GSAP** for hero entrance animations
-- **Lenis 1.3.x** for smooth scroll
-- **hls.js** for HLS video background (Mux stream)
-- **Google Fonts**: Inter + Instrument Serif
+- **Tailwind CSS v4** — utility-first, no config file
+- **Framer Motion** — page transitions and micro-animations
+- **GSAP** — hero entrance animations
+- **Lenis** — buttery smooth scroll
+- **hls.js** — HLS video background via Mux
+- **Google Fonts** — Inter + Instrument Serif
 
-## Features
-
-- Cinematic hero section with HLS video background and dot grid overlay
-- Scramble text role cycling animation
-- Mouse-follow radial glow
-- Smooth scroll with Lenis
-- Animated experience timeline cards
-- Achievements section with event carousels and counters
-- Floating YouTube video cards (content section)
-- Terminal-style side project cards
-- Responsive layout with hamburger navigation on mobile
-- Loading screen with animated counter
-
----
-
-## Getting Started
-
-```bash
-# Install dependencies
-npm install
-
-# Start dev server
-npm run dev
-
-# Build for production
-npm run build
-
-# Preview production build
-npm run preview
-```
-
----
-
-## Project Structure
-
-```
-src/
-  components/
-    Navbar.tsx          # Top navigation + mobile hamburger menu
-    Hero.tsx            # Full-screen hero with video background
-    Experience.tsx      # Work history timeline cards
-    Achievements.tsx    # Competitions, events, and social stats
-    YouTubeContent.tsx  # Video content showcase
-    Building.tsx        # Side projects (terminal card style)
-    Connect.tsx         # Contact links section
-    Footer.tsx          # Marquee + social links
-    LoadingScreen.tsx   # Animated intro loader
-  index.css             # Global styles, keyframes, CSS variables
-  App.tsx               # Root component with Lenis scroll setup
-  main.tsx
-public/
-  images/               # Event and profile images
-```
-
----
-
-## Deploy on Vercel
-
-This project is configured for zero-config deployment on Vercel.
-
-1. Push to GitHub
-2. Import repo at [vercel.com/new](https://vercel.com/new)
-3. Framework: **Vite** (auto-detected)
-4. Click Deploy
-
-Or use the CLI:
-
-```bash
-npm install -g vercel
-vercel --prod
-```
+Design principles: dark theme, cinematic feel, fast load, fully responsive across mobile and desktop.
 
 ---
 
@@ -101,5 +44,5 @@ vercel --prod
 - X: [@williamm168](https://x.com/williamm168)
 - YouTube: [@williamm168](https://youtube.com/@williamm168)
 - Telegram: [t.me/williamm168](https://t.me/williamm168)
-- LinkedIn: [tan-phat-8619203a7](https://linkedin.com/in/tan-phat-8619203a7/)
+- LinkedIn: [/in/tan-phat-8619203a7](https://linkedin.com/in/tan-phat-8619203a7/)
 - Email: trantanphat1501@gmail.com
